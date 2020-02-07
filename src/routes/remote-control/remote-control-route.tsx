@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 import { NerdMan } from "../../components/nerdman/nerd-man";
 import { Hint } from "./hint";
 import { useBatMobile } from "../../use-batmobil";
