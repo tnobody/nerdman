@@ -1,13 +1,101 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  /*radial-gradient(#e66465, #9198e5);*/
+  background: #1f1f1f;
+  background: radial-gradient(#1f1f1f, #080808);
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  width: 100vw;
+  color: #fafafa;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.comic-font {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+* {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.control {
+  margin: 1rem;
+  border: 0;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.control select {
+  border-radius: 1rem;
+}
+.control select option {
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.control input {
+  flex: 1;
+  margin: 0 1rem 0 1rem;
+}
+
+.start-btn {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 0;
+  border-radius: 1rem;
+  width: calc(100% - 2rem);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@keyframes hint {
+  from {
+    display: flex;
+    transform: scale(10);
+    opacity: 0;
+  }
+
+  90% {
+    display: flex;
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    display: none;
+    transform: scale(20, 2);
+    opacity: 0;
+  }
+}
+
+.hint-text {
+  animation: hint 2s ease-out;
+  position: fixed;
+  transform-origin: center;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  animation-fill-mode: forwards;
+  align-items: center;
+  justify-content: center;
+  top: calc(50% - 20px);
+  left: calc(50% - 100px);
+  color: yellow;
 }

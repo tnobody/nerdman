@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { RemoteControl } from "./routes/remote-control/remote-control-route";
+import { Home } from "./routes/home/home";
+import { About } from "./routes/about/about";
 
-const App: React.FC = () => {
+export const App = () => {
+  //return <RemoteControl />;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/remote-control">
+          <RemoteControl />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="">
+          <Home />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
-}
-
-export default App;
+};
