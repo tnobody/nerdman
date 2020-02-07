@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nerdman/static/css/main.6a42c28e.chunk.css",
+    "main.js": "/nerdman/static/js/main.ce9f5ab8.chunk.js",
+    "main.js.map": "/nerdman/static/js/main.ce9f5ab8.chunk.js.map",
+    "runtime-main.js": "/nerdman/static/js/runtime-main.9a995632.js",
+    "runtime-main.js.map": "/nerdman/static/js/runtime-main.9a995632.js.map",
+    "static/js/2.1a2ec184.chunk.js": "/nerdman/static/js/2.1a2ec184.chunk.js",
+    "static/js/2.1a2ec184.chunk.js.map": "/nerdman/static/js/2.1a2ec184.chunk.js.map",
+    "index.html": "/nerdman/index.html",
+    "precache-manifest.969c200423db2c0a6106ecc4a8680b67.js": "/nerdman/precache-manifest.969c200423db2c0a6106ecc4a8680b67.js",
+    "service-worker.js": "/nerdman/service-worker.js",
+    "static/css/main.6a42c28e.chunk.css.map": "/nerdman/static/css/main.6a42c28e.chunk.css.map",
+    "static/js/2.1a2ec184.chunk.js.LICENSE": "/nerdman/static/js/2.1a2ec184.chunk.js.LICENSE",
+    "static/media/nerd-man.svg": "/nerdman/static/media/nerd-man.9eebd8ec.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a995632.js",
+    "static/js/2.1a2ec184.chunk.js",
+    "static/css/main.6a42c28e.chunk.css",
+    "static/js/main.ce9f5ab8.chunk.js"
+  ]
+}
