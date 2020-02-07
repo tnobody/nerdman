@@ -34,6 +34,7 @@
     "react-scripts": "3.3.0",
     "typescript": "~3.7.2"
   },
+  "homepage": "https://tnobody.github.io/nerdman/",
   "eslintConfig": {
     "extends": "react-app"
   },
