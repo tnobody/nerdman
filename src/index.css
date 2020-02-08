@@ -11,6 +11,10 @@ body {
   color: #fafafa;
 }
 
+a {
+  color: inherit;
+}
+
 .comic-font {
     font-family: 'Gloria Hallelujah', cursive;
 }
