@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "NerdMan",
+  "name": "Nerdman - Remotecontrol for PowerdUp Batmobile",
   "icons": [{
       "src": "images/icons/icon-72x72.png",
       "sizes": "72x72",
@@ -43,7 +43,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
